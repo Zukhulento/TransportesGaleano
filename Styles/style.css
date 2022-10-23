@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif; /*Font Oswald*/
+}
+.navbar .container-fluid a,button{
+    color: whitesmoke !important; 
+    transition: 1ms;
+    text-shadow: 2px 2px black;
+}
+.navbar .container-fluid button{
+    border: 1px solid whitesmoke;
+}
+.navbar .container-fluid a:hover,button:hover{
+    transform: scale(1.05);
+    text-decoration: overline;
+}
+#carrousel{
+    width: 90vw;
+    margin: auto;
+    padding-top: 10px;
+}
+
+#cards .container{
+    margin: auto;
+}
+
+#cards{
+    margin-top: 10px;
+}
+#cards img{
+    margin: auto;
+}
+#cards .col{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+#cards #banner{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.row img{
+    width: 100%;
+    padding: 0;
+}
+#footer .footer{
+    margin-top: 40px;
+    height: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 59, 0.829);
+    color: whitesmoke;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+}
+.footer ul{
+    width: 100%;
+    padding: 0;
+}
+.footer ul li{
+    text-align: center;
+    list-style: none;
+    width: 100%;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+/*Colores*/
+#cuerpo{
+    background-color: rgba(0, 0, 255, 0.233);
+}
