@@ -3,6 +3,9 @@
     padding: 0;
     font-family: 'Oswald', sans-serif; /*Font Oswald*/
 }
+body{
+    background-color: rgba(0, 0, 255, 0.233) !important;
+}
 .navbar .container-fluid a,button{
     color: whitesmoke !important; 
     transition: 1ms;
@@ -15,10 +18,19 @@
     transform: scale(1.05);
     text-decoration: overline;
 }
+
 #carrousel{
     width: 90vw;
     margin: auto;
+    margin-top: 10px;
     padding-top: 10px;
+    background-color: rgb(147, 172, 255);
+    border-radius: 20px;
+}
+.carousel-item img{ 
+    margin: auto !important;
+    width: 70% !important; 
+    height: auto !important;
 }
 
 #cards .container{
@@ -41,9 +53,23 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.left {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 3px 3px rgb(107, 107, 107);
+}
+.right{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 3px 3px rgb(107, 107, 107);
+}
 .row img{
     width: 100%;
     padding: 0;
+}
+.row {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #footer .footer{
     margin-top: 40px;
@@ -69,6 +95,24 @@
     color: whitesmoke;
 }
 /*Colores*/
-#cuerpo{
-    background-color: rgba(0, 0, 255, 0.233);
+
+.img_album img{
+    width: 70%;
+}
+#blacky{
+    color: black;
+}
+.img_album #banner img{
+    width: 60%;
+}
+.who{
+    border-radius: 10px;
+    
+    box-shadow: 3px 3px rgb(107, 107, 107);
+}
+#banner_who{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 50%;
 }
