@@ -23,28 +23,32 @@
     <section id="header">
         <nav class="navbar navbar-expand-lg navbar-light text-center" id="navbar_nav">
             <div class="container-fluid">
-                <a href="../index.html"><img src="./Imagenes/Imagenes_transportes_galeano/logoblack.jpeg" alt="" style="max-width: 200px;"></a>
+                <a href="../index.html"><img src="./Imagenes/Imagenes_transportes_galeano/logoblack.jpeg" alt="" id="logo"></a>
                 <a class="navbar-brand" href="../index.html">Transportes Galeano</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span > <img src="./Imagenes/Menu-80_icon-icons.com_57300.png" alt="" width="25"></span>
+                    <span > <img src="../Imagenes/Menu-80_icon-icons.com_57300.png" alt="" width="25"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="./Paginas/album.html">Álbum</a>
+                            <a class="nav-link" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#album">Álbum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#who">¿Quiénes somos?</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#footer">Contáctanos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./Paginas/quienes_somos.html">¿Quiénes somos?</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </section>
+    <button onclick="topFunction()" id="myBtn" title="Ir a inicio">Inicio</button>
     <section id="cuerpo">
         <div id="carrousel">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -92,8 +96,8 @@
                 </button>
             </div>
         </div>
-        <div id="cards">
-            <div class="container">
+        <div id="cards" style="margin-top: 20px;">
+            <div class="container" id="servicios">
                 <div class="row">
                     <div class="col col-md-6 left">
                         <h1>Viajes locales</h1>
@@ -139,12 +143,101 @@
                 </div>
             </div>
         </div>
+        <div id="cards" style="margin-top: 20px;">
+            <div class="container img_album" id="album">
+                
+                <div class="row">
+                    <h1 style="color: whitesmoke; margin-bottom: 15px;">Álbum de fotos</h1>
+                    <div class="col col-md-6 left" >
+                        <img src="../Imagenes/Imagenes_transportes_galeano/WhatsApp Image 2022-10-29 at 12.32.44 PM (1).jpeg" alt="" />
+                        <p>
+                            Cumplimiento garantizado!
+                        </p>
+                    </div>
+                    <div class="col col-md-6 right">
+                        <img src="../Imagenes/Imagenes_transportes_galeano/WhatsApp Image 2022-10-29 at 12.32.44 PM.jpeg" alt="" />
+                        <p>
+                            Conductores profesionales!
+                        </p>
+                    </div>
+                </div>
+                <div id="banner">
+                    <div class="row">
+                        <img src="../Imagenes/Imagenes_transportes_galeano/banner.jpeg" alt="" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-md-6 left">
+                        <img src="../Imagenes/Imagenes_transportes_galeano/negro.jpeg" alt="" />
+                        <p>
+                            Llegando a los lugares más hostiles!
+                        </p>
+                    </div>
+                    <div class="col col-md-6 right">
+                        <img src="../Imagenes/Imagenes_transportes_galeano/WhatsApp Image 2022-10-29 at 12.32.46 PM (1).jpeg" alt="" />
+                        <p>
+                            Seguridad y compromiso!
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-md-6 left">
+                        <img src="../Imagenes/Imagenes_transportes_galeano/WhatsApp Image 2022-10-29 at 12.32.46 PM (4).jpeg" alt="" />
+                        <p>
+                            Ofrecemos variedad de equipos de transportes para cada ocasión!
+                        </p>
+                    </div>
+                    <div class="col col-md-6 right">
+                        <img src="../Imagenes/Imagenes_transportes_galeano/WhatsApp Image 2022-10-29 at 12.32.47 PM (4).jpeg" alt="" />
+                        <p>
+                            Mantenimiento y revisión previa a viajes!
+                        </p>
+                    </div>
+                </div>
+                <div id="banner">
+                    <div class="row">
+                        <img src="../Imagenes/Imagenes_transportes_galeano/banner2.jpeg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cards" style="margin-top: 20px;">
+            <div class="container who" id="who">
+                <div class="row">
+                    <h1 style="color: whitesmoke;  margin-bottom: 15px;">¿Quiénes Somos?</h1>
+                    <div class="col who">
+                        <p>Transporte Galeano es una microempresa que cuenta con oficinas ubicada en Rpto. Altos de Motastepe, el giro de negocio que posee es el de servicio. Ofreciendo al mercado el servicio de transporte de carga pesada por medio terrestre haciendo uso de furgones cerrados, rastras, lowboy y/o góndolas. Abarcando todo el territorio nicaragüense, así como toda el área centroamericana. Actualmente Transporte Galeano cuenta con 5 trabajadores en total, donde 4 de ellos son operadores y el quinto trabajador cumple con todas las funciones de la administración de empresa. </p>
+                    </div>
+                </div>
+                <div class="row" id="banner_who">
+                    <img src="../Imagenes/Camiones-1.jpg" alt="">
+                </div>
+                <div class="row">
+                    <div class="col left">
+                        <h2>Misión</h2>
+                        <img src="../Imagenes/Depositphotos_142245212_l-2015.jpg" alt="">
+                    </div>
+                    <div class="col right center">
+                        Satisfacer las necesidades de nuestros clientes facilitando el transporte de su mercancía, generando la confianza y seguridad de que su mercancía se encuentra en manos de conductores profesionales, que en todo momento actuaran bajo la integra labor de llevar el producto con seguridad y puntualidad.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col left center">
+                        Ser lideres del sector transportista nicaragüense ofreciendo el servicio con la mayor calidad, sustentados mediante solidos recursos humanos y resultados profesionales. 
+                    </div>
+                    <div class="col right">
+                        <h2>Visión</h2>
+                        <img src="../Imagenes/b51fc67e-9b6f-49d6-b40e-77afd936cc03-LaborDayJJPugh.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
         <div id="footer">
             <div class="col footer">
                 <h4>Contáctanos</h4>
                 <ul>
                     <li>
-                        <a href="mailto:Glogistic1@outlook.com?Subject=Interesado%20en%20el%20servicio">tGlogistic1@outlook.com</a>
+                        <a href="mailto:Glogistic1@outlook.com?Subject=Interesado%20en%20el%20servicio">Glogistic1@outlook.com</a>
                     </li>
                     <li><a href="https://alvo.chat/i7x">Teléfono: +505 83981374</a></li>
                     <li><img src="./Imagenes/Imagenes_transportes_galeano/qr_contact.png" alt="" style="max-width: 100px;"></li>
